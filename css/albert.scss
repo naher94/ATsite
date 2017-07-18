@@ -41,8 +41,20 @@ h2 {
     left: 0;
     top: 0;
     bottom: 0;
-    background-color: aqua;
+    background-color: azure;
     border-top: 0px;
     border-bottom: 0px;
    
+}
+
+.side-nav {
+    padding: 20px;
+    a {
+        color: $purple;
+        &:hover {
+            text-decoration: none;
+            color: lighten($purple, 30%);
+        }
+    }
+    
 }
