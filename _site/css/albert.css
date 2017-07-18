@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
+body {
+  font-family: "Lato", sans-serif;
+  color: #313131;
+  font-weight: 400; }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Lato", sans-serif; }
+
+h1 {
+  font-weight: 900;
+  font-size: 36px; }
+
+h2 {
+  font-size: 24px;
+  font-weight: 700; }
+
+.site-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: aqua;
+  border-top: 0px;
+  border-bottom: 0px; }

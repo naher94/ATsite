@@ -1,0 +1,48 @@
+---
+---
+
+// Colors
+$purple: #742bb5;
+$purple-hover: red;
+$dio-black: #313131;
+
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+$font-default: 'Lato', sans-serif;
+$regular: 400;
+$bold: 700;
+$black: 900;
+
+body {
+    font-family: $font-default;
+    color: $dio-black;
+    font-weight: $regular;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: $font-default;
+}
+
+h1 {
+    font-weight: $black;
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: $bold;
+}
+
+.site-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: aqua;
+    border-top: 0px;
+    border-bottom: 0px;
+   
+}
