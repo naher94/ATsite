@@ -50,12 +50,11 @@ h2 {
     width: 200px;
     height: 100vh;
     position: relative;
+    padding: 50px;
 }
 
 
 .nav-labels {
-    padding: 20px;
-    margin-top: 20px;
     a {
         color: $purple;
         &:hover {
@@ -69,7 +68,7 @@ h2 {
 .nav-footer {
     padding: 20px;
     position: absolute;
-    bottom: 0px;
+    bottom: 30px;
     
 }
 

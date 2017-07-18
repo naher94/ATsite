@@ -29,21 +29,19 @@ h2 {
 .nav-content {
   width: 200px;
   height: 100vh;
-  position: relative; }
+  position: relative;
+  padding: 50px; }
 
-.nav-labels {
-  padding: 20px;
-  margin-top: 20px; }
-  .nav-labels a {
-    color: #742bb5; }
-    .nav-labels a:hover {
-      text-decoration: none;
-      color: #bf94e5; }
+.nav-labels a {
+  color: #742bb5; }
+  .nav-labels a:hover {
+    text-decoration: none;
+    color: #bf94e5; }
 
 .nav-footer {
   padding: 20px;
   position: absolute;
-  bottom: 0px; }
+  bottom: 30px; }
 
 .social-icon {
   height: 20px;
