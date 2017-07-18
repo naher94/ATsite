@@ -39,9 +39,8 @@ h2 {
     color: #bf94e5; }
 
 .nav-footer {
-  padding: 20px;
-  position: absolute;
-  bottom: 30px; }
+  bottom: 30px;
+  position: absolute; }
 
 .social-icon {
   height: 20px;
